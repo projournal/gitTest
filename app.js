@@ -6,6 +6,8 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
+	
+	let cat = 10;
 
 	res.render('index');
 	
